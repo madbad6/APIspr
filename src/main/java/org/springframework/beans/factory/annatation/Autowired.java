@@ -1,9 +1,9 @@
-package org.springframework.beans.factory.sterotupe;
+package org.springframework.beans.factory.annatation;
+
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Component {
+public @interface Autowired {
 }
-
